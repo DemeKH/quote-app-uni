@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- res/values/themes.xml -->
+    <style name="Theme.QuoteOfTheDay" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- your colors and styles -->
+    </style>
+
+
+</resources>
