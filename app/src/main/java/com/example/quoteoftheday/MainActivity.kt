@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import com.example.quoteoftheday.database.QuoteDatabaseHelper
 import com.example.quoteoftheday.databinding.ActivityMainBinding
 import com.example.quoteoftheday.fragments.FavoritesFragment
-import com.example.quoteoftheday.fragments.SettingsFragment
+
 import com.example.quoteoftheday.fragments.TodayFragment
 
 class MainActivity : AppCompatActivity() {
@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.nav_today -> replaceFragment(TodayFragment())
                 R.id.nav_favorites -> replaceFragment(FavoritesFragment())
-                R.id.nav_settings -> replaceFragment(SettingsFragment())
             }
             true
         }
